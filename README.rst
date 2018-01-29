@@ -1,8 +1,8 @@
-.. image:: https://travis-ci.org/gintas/django-picklefield.svg?branch=master
-    :target: https://travis-ci.org/gintas/django-picklefield
+.. image:: https://travis-ci.org/hautonjt/django-picklefield.svg?branch=master
+    :target: https://travis-ci.org/hautonjt/django-picklefield
 
-.. image:: https://coveralls.io/repos/gintas/django-picklefield/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/gintas/django-picklefield?branch=master
+.. image:: https://coveralls.io/repos/hautonjt/django-picklefield/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/hautonjt/django-picklefield?branch=master
 
 -----
 About
@@ -13,6 +13,9 @@ Such fields can contain any picklable objects.
 
 The implementation is taken and adopted from `Django snippet #1694`_ by Taavi
 Taijala, which is in turn based on `Django snippet #513`_  by Oliver Beattie.
+
+This is a lazy fork of gintas/django-picklefield that replaces all usage of built-in 
+Python pickle with dill. Use at your own risk.
 
 django-picklefield is available under the MIT license.
 
@@ -28,7 +31,7 @@ convenience, recent versions should be available from PyPI.
 
 To use, just define a field in your model::
 
-    >>> from picklefield.fields import PickledObjectField
+    >>> from dillfield.fields import PickledObjectField
     ... class SomeObject(models.Model):
     ...     args = PickledObjectField()
 

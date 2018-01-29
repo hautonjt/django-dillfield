@@ -15,6 +15,8 @@ T1 = (1, 2, 3, 4, 5)
 L1 = [1, 2, 3, 4, 5]
 D1 = {1: 1, 2: 4, 3: 6, 4: 8, 5: 10}
 D2 = {1: 2, 2: 4, 3: 6, 4: 8, 5: 10}
+def D3():
+    pass
 
 
 class TestCopyDataType(str):
@@ -180,7 +182,7 @@ class PickledObjectFieldTests(TestCase):
 
         self.assertEqual(data, [{
             'pk': 1,
-            'model': 'picklefield.minimaltestingmodel',
+            'model': 'dillfield.minimaltestingmodel',
             'fields': {"pickle_field": p}},
         ])
 

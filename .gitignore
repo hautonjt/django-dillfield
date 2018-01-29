@@ -3,6 +3,6 @@
 /build
 /dist
 /temp
-/src/django_picklefield.egg-info
+/src/django_dillfield.egg-info
 .tox
 .coverage

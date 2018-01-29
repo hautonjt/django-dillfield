@@ -5,7 +5,7 @@ DATABASES = {
 }
 
 INSTALLED_APPS = [
-    'picklefield',
+    'dillfield',
 ]
 
 SECRET_KEY = 'local'

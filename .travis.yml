@@ -38,7 +38,7 @@ matrix:
       python: 3.6
 
 install:
-  - pip install tox coveralls "virtualenv<14.0"
+  - pip install tox coveralls "virtualenv<14.0" dill
 
 script:
   - tox

@@ -1,3 +1,4 @@
+# Copyright (c) 2018 Hauton Tsang
 # Copyright (c) 2009-2010 Gintautas Miliauskas
 # Copyright (c) 2009, Taavi Taijala
 # Copyright (c) 2007, Oliver Beattie
@@ -25,15 +26,18 @@ from setuptools import setup, find_packages
 long_description = codecs.open('README.rst', encoding='utf-8').read()
 
 setup(
-    name='django-picklefield',
+    name='django-dillfield',
     version='1.0.0',
-    description='Pickled object field for Django',
+    description='Serialize almost everything in Django',
     long_description=long_description,
-    author='Gintautas Miliauskas',
-    author_email='gintautas@miliauskas.lt',
-    url='http://github.com/gintas/django-picklefield',
+    author='Hauton Tsang',
+    author_email='hauton.tsang@ewalker.com.hk',
+    url='http://github.com/hautonjt/django-picklefield',
     packages=find_packages('src'),
     package_dir={'': 'src'},
+    install_requires=[
+      'dill',
+    ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
