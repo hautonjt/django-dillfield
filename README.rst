@@ -1,8 +1,8 @@
-.. image:: https://travis-ci.org/hautonjt/django-picklefield.svg?branch=master
-    :target: https://travis-ci.org/hautonjt/django-picklefield
+.. image:: https://travis-ci.org/hautonjt/django-dillfield.svg?branch=master
+    :target: https://travis-ci.org/hautonjt/django-dillfield
 
-.. image:: https://coveralls.io/repos/hautonjt/django-picklefield/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/hautonjt/django-picklefield?branch=master
+.. image:: https://coveralls.io/repos/hautonjt/django-dillfield/badge.svg?branch=master&service=github
+    :target: https://coveralls.io/github/hautonjt/django-dillfield?branch=master
 
 -----
 About
@@ -14,8 +14,9 @@ Such fields can contain any picklable objects.
 The implementation is taken and adopted from `Django snippet #1694`_ by Taavi
 Taijala, which is in turn based on `Django snippet #513`_  by Oliver Beattie.
 
-This is a lazy fork of gintas/django-picklefield that replaces all usage of built-in 
-Python pickle with dill. Use at your own risk.
+**django-dillfield** is a lazy fork of gintas/django-picklefield that replaces 
+all usage of built-in Python pickle with [dill](https://github.com/uqfoundation/dill). 
+Use at your own risk.
 
 django-picklefield is available under the MIT license.
 

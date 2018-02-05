@@ -1,4 +1,4 @@
-"""Unit tests for django-picklefield."""
+"""Unit tests for django-dillfield."""
 import json
 from datetime import date
 from unittest import skipIf

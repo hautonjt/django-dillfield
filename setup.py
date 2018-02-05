@@ -32,7 +32,7 @@ setup(
     long_description=long_description,
     author='Hauton Tsang',
     author_email='hauton.tsang@ewalker.com.hk',
-    url='http://github.com/hautonjt/django-picklefield',
+    url='http://github.com/hautonjt/django-dillfield',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     install_requires=[
