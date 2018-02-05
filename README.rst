@@ -15,7 +15,8 @@ The implementation is taken and adopted from `Django snippet #1694`_ by Taavi
 Taijala, which is in turn based on `Django snippet #513`_  by Oliver Beattie.
 
 **django-dillfield** is a lazy fork of gintas/django-picklefield that replaces 
-all usage of built-in Python pickle with [dill](https://github.com/uqfoundation/dill). 
+all usage of built-in Python pickle with `dill 
+<https://github.com/uqfoundation/dill>`_. 
 Use at your own risk.
 
 django-picklefield is available under the MIT license.
